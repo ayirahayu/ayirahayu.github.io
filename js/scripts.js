@@ -1,13 +1,9 @@
 /*!
-    Title: Dev Portfolio Template
-    Version: 1.2.2
-    Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-
-    Description: This file contains all the scripts associated with the single-page
-    portfolio website.
+    Title: My Portofolio
+    Version: 1.0
+    Last Change: 07/05/2022
+    Author: Ayi Rahayu
+    Repo: https://ayirahayu.github.io/
 */
 
 (function($) {
@@ -98,3 +94,4 @@
     });
 
 })(jQuery);
+

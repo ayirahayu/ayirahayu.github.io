@@ -1,14 +1,9 @@
 /*!
-    Title: Dev Portfolio Template
-    Version: 1.2.2
-    Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-
-    Description: This file contains all the styles associated with the page
-    that don't come from third party libraries. This file gets compiled using
-    Gulp and send to the /css folder which is then loaded on the page.
+    Title: My Portofolio
+    Version: 1.0
+    Last Change: 07/05/2022
+    Author: Ayi Rahayu
+    Repo: https://ayirahayu.github.io/
 */
 body {
     font-family: 'Lato', sans-serif;
@@ -606,6 +601,63 @@ footer {
     cursor: default;
     font-size: 1.2em
 }
+
+#certification {
+    padding: 50px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    text-align: center
+}
+
+#certification h2 {
+    color: #374054;
+    margin-bottom: 50px
+}
+
+.certification {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px
+}
+
+.certification-image {
+    float: left
+}
+
+.certification-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 300px;
+    padding: 15px
+}
+
+.certification-info h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #374054;
+    margin: 0 0 15px 0
+}
+
+.certification-info p {
+    color: #74808a;
+    margin: 0 0 15px 0;
+    font-size: 0.9em
+}
+
+.no-image .certification-info {
+    position: relative;
+    margin: 0;
+    padding: 30px 15px;
+    transform: none
+}
+
+#more-certification {
+    display: none
+}
+
 
 #contact {
     padding: 50px 15px;
