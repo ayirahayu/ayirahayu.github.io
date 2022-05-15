@@ -1,2 +1,2 @@
-To view a live demo, [click here](https://ayirahayu.github.io/devportfolio/).
+To view a live demo, [click here](https://ayirahayu.github.io).
 
